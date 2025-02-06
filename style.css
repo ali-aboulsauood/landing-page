@@ -1,48 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* CSS styles for HTML elements */
+
 body {
     display: flex;
     flex-direction: column;
 
     font-family: Roboto, sans-serif;
+
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-/* The following ruleset may be unnecessary. Remove it if so is true. */
-.section-1 {
-    display: flex;
-    flex-direction: column;
+button {
+    background-color: #3882F6;
+    /* Color inferred using a color picker. */
+    color: #FFFFFF;
+
+    border: none;
+
+    /*
+    The values for the following properties were not specified in the design images.
+    Assumed them to be the following values.
+    */
+
+    font-size: large;
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    width: 124px;
+    height: 33px;
 }
 
-.header {
-    display: flex;
-
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-logo {
-    font-size: 24px;
-
-    color: #F9FAF8;
-}
-
-.header-links {
-    display: flex;
-    
-    gap: 16px;
-
-    list-style-type: none;
-}
-
-.header-links a {
-    font-size: 18px;
-    
-    color: #E5E7EB;
-}
+/* CSS styles for section 1 */
 
 .section-1, .footer {
     background-color: #1F2937;
@@ -52,5 +47,101 @@ a {
     Assumed it to be the same as that of the hero main text and the header logo text.
     */
     color: #F9FAF8;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+
+    /*
+    The value for the gap between the header and the body of the section was unspecified in the design images.
+    Assumed it to be 133px.
+    */
+    gap: 133px;
+}
+
+/* CSS styles for section 1 */
+
+.header, .body {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
+The values for margins, gaps, widths and heights for the following items was not specified in the design images.
+Assumed them to have the following values.
+*/
+
+.header-logo {
+    font-size: 24px;
+
+    color: #F9FAF8;
+
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+
+    gap: 16px;
+
+    list-style-type: none;
+
+    margin-right: 200px;
+    margin-left: auto;
+}
+
+.header-links a {
+    font-size: 18px;
+
+    color: #E5E7EB;
+}
+
+.body {
+    margin-bottom: 130px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.right {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    /* Background Color inferred using a color picker */
+    background-color: #6D747D;
+
+    margin-right: 200px;
+    margin-left: auto;
+}
+
+.left, .right {
+    width: 520px;
+    height: 230px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    
+    color: #E5E7EB;
 }
 
