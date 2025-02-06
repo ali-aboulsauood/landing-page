@@ -5,5 +5,52 @@ body {
     flex-direction: column;
 
     font-family: Roboto, sans-serif;
-
 }
+
+a {
+    text-decoration: none;
+}
+
+/* The following ruleset may be unnecessary. Remove it if so is true. */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    
+    gap: 16px;
+
+    list-style-type: none;
+}
+
+.header-links a {
+    font-size: 18px;
+    
+    color: #E5E7EB;
+}
+
+.section-1, .footer {
+    background-color: #1F2937;
+
+    /*
+    The text color for the footer was unspecified in the design images.
+    Assumed it to be the same as that of the hero main text and the header logo text.
+    */
+    color: #F9FAF8;
+}
+
