@@ -1,17 +1,5 @@
 # Project: Landing Page
 
-<p style="border: 4px dashed yellow; padding: 16px; color: yellow;">
-    <b>Note</b>:
-    <br>
-    <br>
-    The project is currently still in development.
-    <br>
-    Because this project is primarily for training purposes, no pull requests are going to be accepted until its first version is finished.
-    <br>
-    <br>
-    If you happen to find anything that you believe needs improvement, I would appreciate it if you take the time to open an issue and give me a hint about it. That would indeed help me as a learner.
-</p>
-
 <p style="border: 4px dashed #E3B261; padding: 16px; color: #D1D5DB">
     <b style="color: #E3B261">Note for The Odin Project students</b>:
     <br>
@@ -28,18 +16,6 @@ This project was created as the [second practice project](https://www.theodinpro
 ## Using the project
 
 ### Contributions
-
-<p style="border: 4px dashed yellow; padding: 16px; color: yellow;">
-    <b>Note</b>:
-    <br>
-    <br>
-    The project is currently still in development.
-    <br>
-    Because this project is primarily for training purposes, no pull requests are going to be accepted until its first version is finished.
-    <br>
-    <br>
-    If you happen to find anything that you believe needs improvement, I would appreciate it if you open an issue and give me a hint about it. That would indeed help me as a learner.
-</p>
 
 
 Anybody is more than welcome to contribute to this project.
