@@ -307,3 +307,12 @@ TODO:
     border: 2px solid white;
     border-radius: 5px;
 }
+
+/* CSS styles for section 4 */
+
+.footer {
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
