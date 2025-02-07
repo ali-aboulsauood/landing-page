@@ -18,10 +18,11 @@ a {
 
 button {
     background-color: #3882F6;
-    /* Color inferred using a color picker. */
-    color: #FFFFFF;
 
     border: none;
+
+    /* Color inferred using a color picker */
+    color: #FFFFFF;
 
     /*
     The values for the following properties were not specified in the design images.
@@ -70,7 +71,7 @@ button {
 }
 
 /*
-The values for margins, gaps, widths and heights for the following items was not specified in the design images.
+The values for borders, border radii, margins, gaps, widths and heights for the following items was not specified in the design images.
 Assumed them to have the following values.
 */
 
@@ -143,4 +144,55 @@ Assumed them to have the following values.
     font-size: 18px;
     
     color: #E5E7EB;
+}
+
+/* CSS styles for section 2 */
+
+.section-2 {
+    margin: 51px 0 113px 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+
+    color: #1F2937;
+
+    text-align: center;
+
+    margin-bottom: 53px;
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.content {
+    max-width: 164px;
+}
+
+.image {
+    width: 164px;
+    height: 164px;
+
+    /* 
+    Border color was not specified in the design images.
+    Assumed it to be the same as the button color and call to action background color.
+    */
+    border: solid 2px #3882F6;
+
+    border-radius: 16px;
+
+    margin-bottom: 8px;
+}
+
+.caption {
+    /* color inferred using  a color picker. */
+    color: #6D747D;
+
+    text-align: center;
 }
