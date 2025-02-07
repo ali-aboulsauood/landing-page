@@ -311,6 +311,12 @@ TODO:
 /* CSS styles for section 4 */
 
 .footer {
+    /*
+    The value for color was not specified in the design images.
+    Assumed it to be the same as that of the hero secondary text.
+    */
+    color: #E5E7EB;
+
     text-align: center;
 
     padding-top: 40px;
