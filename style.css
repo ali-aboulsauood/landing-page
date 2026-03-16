@@ -3,73 +3,73 @@
 /* CSS styles for HTML elements */
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    background-color: #3882F6;
+  background-color: #3882F6;
 
-    border: none;
+  border: none;
 
-    /* Color inferred using a color picker */
-    color: #FFFFFF;
+  /* Color inferred using a color picker */
+  color: #FFFFFF;
 
-    /*
-    The values for the following properties were not specified in the design images.
-    Assumed them to have the following values.
-    */
+  /*
+  The values for the following properties were not specified in the design images.
+  Assumed them to have the following values.
+  */
 
-    font-size: large;
-    font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 
-    border-radius: 5px;
+  border-radius: 5px;
 
-    width: 124px;
-    height: 33px;
+  width: 124px;
+  height: 33px;
 
-    padding: 6px;
+  padding: 6px;
 }
 
 /* CSS styles for section 1 */
 
 .section-1, .footer {
-    background-color: #1F2937;
+  background-color: #1F2937;
 
-    /*
-    The text color for the footer was unspecified in the design images.
-    Assumed it to be the same as that of the hero main text and the header logo text.
-    */
-    color: #F9FAF8;
+  /*
+  The text color for the footer was unspecified in the design images.
+  Assumed it to be the same as that of the hero main text and the header logo text.
+  */
+  color: #F9FAF8;
 }
 
 .section-1 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    /*
-    The value for the gap between the header and the body of the section was unspecified in the design images.
-    Assumed it to be 133px.
-    */
-    gap: 133px;
+  /*
+  The value for the gap between the header and the body of the section was unspecified in the design images.
+  Assumed it to be 133px.
+  */
+  gap: 133px;
 }
 
 /* CSS styles for section 1 */
 
 .header, .body {
-    display: flex;
+  display: flex;
 
-    justify-content: space-around;
-    align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*
@@ -78,173 +78,173 @@ Assumed them to have the following values.
 */
 
 .header-logo {
-    font-size: 24px;
+  font-size: 24px;
 
-    color: #F9FAF8;
+  color: #F9FAF8;
 
-    margin-left: 200px;
-    margin-right: auto;
+  margin-left: 200px;
+  margin-right: auto;
 }
 
 .header-links {
-    display: flex;
+  display: flex;
 
-    gap: 16px;
+  gap: 16px;
 
-    list-style-type: none;
+  list-style-type: none;
 
-    margin-right: 200px;
-    margin-left: auto;
+  margin-right: 200px;
+  margin-left: auto;
 }
 
 .header-links a {
-    font-size: 18px;
+  font-size: 18px;
 
-    color: #E5E7EB;
+  color: #E5E7EB;
 }
 
 .body {
-    margin-bottom: 130px;
+  margin-bottom: 130px;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    gap: 12px;
+  gap: 12px;
 
-    margin-left: 200px;
-    margin-right: auto;
+  margin-left: 200px;
+  margin-right: auto;
 }
 
 .right {
-    display: flex;
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
-    /* Background Color inferred using a color picker */
-    background-color: #6D747D;
+  /* Background Color inferred using a color picker */
+  background-color: #6D747D;
 
-    margin-right: 200px;
-    margin-left: auto;
+  margin-right: 200px;
+  margin-left: auto;
 }
 
 .left, .right {
-    width: 520px;
-    height: 230px;
+  width: 520px;
+  height: 230px;
 }
 
 .hero-main-text {
-    font-size: 48px;
-    font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
 
-    color: #F9FAF8;
+  color: #F9FAF8;
 }
 
 .hero-secondary-text {
-    font-size: 18px;
-    
-    color: #E5E7EB;
+  font-size: 18px;
+  
+  color: #E5E7EB;
 }
 
 /* CSS styles for section 2 */
 
 .section-2 {
-    margin: 51px 0 113px 0;
+  margin: 51px 0 113px 0;
 }
 
 .title {
-    font-size: 36px;
-    font-weight: 900;
+  font-size: 36px;
+  font-weight: 900;
 
-    color: #1F2937;
+  color: #1F2937;
 
-    text-align: center;
+  text-align: center;
 
-    margin-bottom: 53px;
+  margin-bottom: 53px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 
-    justify-content: center;
+  justify-content: center;
 
-    gap: 50px;
+  gap: 50px;
 }
 
 .content {
-    max-width: 164px;
+  max-width: 164px;
 }
 
 .image {
-    width: 164px;
-    height: 164px;
+  width: 164px;
+  height: 164px;
 
-    /* 
-    Border color was not specified in the design images.
-    Assumed it to be the same as the button color and call to action background color.
-    */
-    border: solid 2px #3882F6;
+  /* 
+  Border color was not specified in the design images.
+  Assumed it to be the same as the button color and call to action background color.
+  */
+  border: solid 2px #3882F6;
 
-    border-radius: 16px;
+  border-radius: 16px;
 
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .caption {
-    /* color inferred using  a color picker. */
-    color: #6D747D;
+  /* color inferred using  a color picker. */
+  color: #6D747D;
 
-    text-align: center;
+  text-align: center;
 }
 
 /* CSS styles for section 3 */
 
 .section-3 {
-    background-color: #E5E7EB;
-    color: #1F2937;
+  background-color: #E5E7EB;
+  color: #1F2937;
 }
 
 .quote-block {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    margin-top: 133px;
-    margin-bottom: 103px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 133px;
+  margin-bottom: 103px;
+  margin-left: auto;
+  margin-right: auto;
 
-    max-width: 815px;
-    max-height: 220px;
+  max-width: 815px;
+  max-height: 220px;
 }
 
 .quote {
-    font-size: 36px;
-    /*
-    Design images specify font weight as 'light', which is a value that is not present in CSS.
-    Used a value of 300.
-    */
-    font-weight: 300;
-    /*
-    TODO:
-    Check why the user agent does not render the quote with the proper font weight.
-    */
-    font-style: italic;
+  font-size: 36px;
+  /*
+  Design images specify font weight as 'light', which is a value that is not present in CSS.
+  Used a value of 300.
+  */
+  font-weight: 300;
+  /*
+  TODO:
+  Check why the user agent does not render the quote with the proper font weight.
+  */
+  font-style: italic;
 }
 
 .cite {
-    /*
-    The following properties were not specified by the design images.
-    Assumed them to have the following values.
-    */
+  /*
+  The following properties were not specified by the design images.
+  Assumed them to have the following values.
+  */
 
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 
-    align-self: flex-end;
+  align-self: flex-end;
 
-    margin-right: 26px;
+  margin-right: 26px;
 }
 
 /* CSS styles for section 4 */
@@ -255,70 +255,70 @@ TODO:
 */
 
 .section-4 {
-    display: flex;
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
-    display: flex;
+  display: flex;
 
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 
-    background-color: #3882F6;
-    color: #FFFFFF;
+  background-color: #3882F6;
+  color: #FFFFFF;
 
-    border-radius: 5px;
+  border-radius: 5px;
 
-    margin: 100px 204px 100px 204px;
-    padding: 51px 120px 51px 120px;
+  margin: 100px 204px 100px 204px;
+  padding: 51px 120px 51px 120px;
 
-    width: 1022px;
+  width: 1022px;
 }
 
 .call-to-action-text {
-    /*
-    The following properties were not specified by the design images.
-    Assumed them to have the following values.
-    */
-    font-size: 20px;
-    font-weight: 700;
+  /*
+  The following properties were not specified by the design images.
+  Assumed them to have the following values.
+  */
+  font-size: 20px;
+  font-weight: 700;
 
-    margin: 0;
+  margin: 0;
 }
 
 .call-to-action-subtext {
-    /*
-    The following properties were not specified by the design images.
-    Assumed them to have the following values.
-    */
-    font-size: 18px;
-    font-weight: 300px;
-    
-    color: #E5E7EB;
+  /*
+  The following properties were not specified by the design images.
+  Assumed them to have the following values.
+  */
+  font-size: 18px;
+  font-weight: 300px;
+  
+  color: #E5E7EB;
 
-    margin: 0;
+  margin: 0;
 }
 
 .sign-up.alternate {
-    /* Color inferred using a color picker. */
-    border: 2px solid white;
-    border-radius: 5px;
+  /* Color inferred using a color picker. */
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
 /* CSS styles for section 4 */
 
 .footer {
-    /*
-    The value for color was not specified in the design images.
-    Assumed it to be the same as that of the hero secondary text.
-    */
-    color: #E5E7EB;
+  /*
+  The value for color was not specified in the design images.
+  Assumed it to be the same as that of the hero secondary text.
+  */
+  color: #E5E7EB;
 
-    text-align: center;
+  text-align: center;
 
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
